@@ -26,7 +26,7 @@ public class StudentDAOImpl implements StudentDAO {
     public StudentDAOImpl() {
         String url = "jdbc:mysql://localhost:3306/jdbc";
         String username = "root";
-        String password = "prateek@123";
+        String password = "root";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
